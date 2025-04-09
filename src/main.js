@@ -6,7 +6,7 @@ function createMessage(e) {
   // const responseId = e.response.getId();
 
   let message =
-    `[${formTitle}] 新しい回答を受け付けました\n` +
+    `[${formTitle}] 新しい回答を受け付けました\n\n` +
     "---受付内容---\n" +
     "【メールアドレス】\n" +
     `${email}\n`;
